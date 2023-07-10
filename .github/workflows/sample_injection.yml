@@ -10,4 +10,5 @@ jobs:
 
     name: Print issue title
     steps:
+    
     - run: echo "${{github.event.issue.title}}"
